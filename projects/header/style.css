@@ -4,10 +4,58 @@
 }
 
 body{
-    
+    font-family: "Montserrat", sans-serif;
+    color: #3e3535;
 }
+
 
 .header{
     width: 100%;
     box-sizing: border-box;
+    color: #fff;
+}
+
+.menu {
+    display: flex; 
+}
+
+.menu__link{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 40px; 
+
+}
+
+.menu__ul{
+    margin-left: 40px;
+    margin-top: 49px;
+    list-style: none; 
+    display: flex;
+    
+}
+
+.menu__logo{
+    text-decoration: none;
+    color: #05A88D;
+    font-size: 24px;
+    margin-top: 35px;
+    margin-left: 251px;
+}
+
+.menu__signup{
+    border: 1px solid #05A88D;
+    border-radius: 3px;
+    color: #05A88D;
+    margin-left: 347px;
+    margin-top: 27px;
+    font-size: 16px;
+    padding: 12.5px 21.5px;
+}
+
+.menu__login{
+    color: #05A88D;
+    margin-left: 69.5px;
+    margin-top: 39.5px;
+    font-size: 16px;
 }
